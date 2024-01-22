@@ -1,4 +1,5 @@
 <div class="video_list">
+    <li><a href="special_lecture8.php">이승철작가의 작품 세계</a></li>
     <li><a href="special_lecture7.php">새로운 문화환경과 한국미술의 가능성</a></li>
     <li><a href="special_lecture6.php">2023년 미술관련 세금이야기</a></li>
     <li><a href="special_lecture5.php">미술품 컬렉션의 의미와 가치</a></li>

@@ -4,7 +4,7 @@ function counter(){
 
     //var dday = new Date("Apr 7,2018,09:00:00").getTime(); //디데이
 
-            var dday = new Date("2023-12-01 00:00:00").getTime(); //디데이
+            var dday = new Date("2024-01-08 00:00:00").getTime(); //디데이
 
             setInterval(function(){
 
@@ -30,7 +30,7 @@ function counter(){
 
                 if (distance<0) {
 
-                    $('#count_history1').html('2023.12.01. ~ 2024.02.28. ｜ 영선갤러리 소장전'); //기록내용
+                    $('#count_history1').html('2024.01.08. ~ 2024.02.29. ｜ 영선갤러리 소장전'); //기록내용
 
                 } else {
 

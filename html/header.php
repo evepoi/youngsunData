@@ -13,6 +13,7 @@
                     <li><a href="exhibition1.php">전시</a></li>
                     <li><a href="column.php">컬럼</a></li>
                     <li><a href="history.php">기록</a></li>
+                    <li><a href="Arts.php">작품</a></li>
                 </ul>
             </nav>
         </div>

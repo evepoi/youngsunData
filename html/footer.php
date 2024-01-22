@@ -3,9 +3,8 @@
             <div class="container">
                 <div class="footer_sns">
                     <ul>
-                        <li class="icon s1"><a href="#"><span class="ir_pm">트위터</span></a></li>
-                        <li class="icon s2"><a href="#"><span class="ir_pm">페이스북</span></a></li>
-                        <li class="icon s3"><a href="#"><span class="ir_pm">인스타그램</span></a></li>
+                        <li class="icon s1"><a href="#"><span class="ir_pm">유튜브</span></a></li>
+                        <li class="icon s2"><a href="#"><span class="ir_pm">카카오톡</span></a></li>
                     </ul>
                     <div class="tel">
                         <a href="#">ARS <em>031-203-1089</em></a>
