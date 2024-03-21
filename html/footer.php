@@ -3,8 +3,8 @@
             <div class="container">
                 <div class="footer_sns">
                     <ul>
-                        <li class="icon s1"><a href="#"><span class="ir_pm">유튜브</span></a></li>
-                        <li class="icon s2"><a href="#"><span class="ir_pm">카카오톡</span></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC3HzH1QYRPOUVlQFqgyUQrg"><img src="img/icon_youtube.png" alt="영선갤러리 유튜브"></li>
+                        <li><a href="https://open.kakao.com/o/gNPhwidf"><img src="img/icon_Kakao.png" alt="영선갤러리 카카오톡"></li>
                     </ul>
                     <div class="tel">
                         <a href="#">ARS <em>031-203-1089</em></a>
@@ -17,7 +17,7 @@
                 <div class="footer_info">
                     <h2><img src="img/logo.png" alt="영선갤러리"></h2>
                     <address class="clearfix">
-                        <p>경기 수원시 영통구 덕영대로 1471번길 59, 2층 영선갤러리 (망포동)<br>
+                        <p>경기 수원시 영통구 덕영대로 1471번길 59, 2층 (망포동)<br>
                         Copyright 2022 by ME Making Inc. All right reserved<br>
                         이 사이트 회원가입을 요구하지 않습니다. 자유롭게 이용가능합니다.
                         </p>

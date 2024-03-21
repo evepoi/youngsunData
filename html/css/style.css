@@ -145,7 +145,7 @@
 /* Footer 영역 */
 .footer_sns {position: absolute; right: 17px; top: 33px; z-index: 1;}
 .footer_sns li {display: inline-block;}
-.footer_sns li a {display: block; width: 36px; height: 36px;}
+.footer_sns li a {display: block; width: 35px;}
 .footer_sns li.s1 {background-position: 0 0px;}
 .footer_sns li.s2 {background-position: -36px 0px;}
 .footer_sns li.s3 {background-position: -72px 0px;}

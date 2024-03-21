@@ -1,7 +1,7 @@
 //타이머 전시 예정
 function counter(){
     //var dday = new Date("Apr 7,2018,09:00:00").getTime(); //디데이
-            var dday = new Date("2024-01-08 00:00:00").getTime(); //디데이
+            var dday = new Date("2024-03-28 00:00:00").getTime(); //디데이
             setInterval(function(){
                 var now = new Date(); //현재 날짜 가져오기
                 var distance = dday - now;
@@ -16,7 +16,7 @@ function counter(){
                 if (distance<0) {
                     $('#Start_Exh').html('전시중');
                     $('#artlist1').html('소장전');
-                    $('#count_history').html('2024.01.08. ~ 2024.02.29. ｜ 영선갤러리 소장전'); //기록내용
+                    $('#count_history').html('2024.03.28. ~ 2024.04.27. ｜ 김민 개인전'); //기록내용
                 } else {
                     if (d>0) {
                         view = view+d +'일 ';
@@ -29,8 +29,8 @@ function counter(){
                     }
                     $('#artlist1').html(view+s+'후 전시'); 
                     $('#Start_Exh').html('전시예정');
-                    $('#count_history').html(view+s+'후 전시 ｜ 소장전'); //기록내용 
+                    $('#count_history').html(view+s+'후 전시 ｜ 김민작가 개인전'); //기록내용 
                 }
             }, 1000);
         }
-ㄴ        counter();
+    counter();

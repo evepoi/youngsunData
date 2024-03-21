@@ -14,7 +14,7 @@ function counter(){
                     s = '0'+s;
                 }
                 if (distance<0) {
-                    $('#count_history5').html('2024.01.20. ｜ 뉴시스 박현주 기자 미술특강'); //기록내용
+                    $('#count_history5').html('2024.01.20. ｜ 미술전문기자가 본 현대미술｜뉴시스 박현주 기자'); //기록내용
                 } else {
                     if (d>0) {
                         view = view+d +'일 ';
@@ -25,7 +25,7 @@ function counter(){
                     if (m>0) {
                         view = view+m+':';
                     }
-                    $('#count_history5').html(view+s+'후 전시 ｜ 뉴시스 박현주 기자 미술특강'); //기록내용
+                    $('#count_history5').html(view+s+'후 전시 ｜ 미술전문기자가 본 현대미술｜뉴시스 박현주 기자'); //기록내용
                 }
             }, 1000);
         }
