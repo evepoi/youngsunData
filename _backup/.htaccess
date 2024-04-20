@@ -1,4 +1,0 @@
-AuthName     "Backup file download"
-AuthType     Basic
-AuthUserFile /home/youngsungallery/htpasswd
-require      valid-user
