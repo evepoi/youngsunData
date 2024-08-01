@@ -1,5 +1,7 @@
 <div class="exhibition_list">
     <!--<li><a href="exhibition3.php">영감의 시작 - Drawing</a></li>-->
+    <li><a href="exhibition4.php">나비! 꽃으로 피다 (9월 02일 ~ 9월 30일) </a></li>
+    <li><a href="exhibition3.php">소장작품전(7월 01일 ~ 8월 30일) </a></li>
     <li><a href="exhibition2.php">달항아리 특별전</a></li>
     <li><a href="exhibition1.php">박영학 작가 초대전</a></li>
 </div>

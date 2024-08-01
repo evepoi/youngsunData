@@ -9,8 +9,8 @@
             </div>
             <nav class="nav">
                 <ul class="clearfix">
-                    <li><a href="special_lecture1.php">특강</a></li>
-                    <li><a href="exhibition1.php">전시</a></li>
+                    <li><a href="special_lecture8.php">특강</a></li>
+                    <li><a href="exhibition3.php">전시</a></li>
                     <li><a href="column.php">컬럼</a></li>
                     <li><a href="history.php">기록</a></li>
                 </ul>

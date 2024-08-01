@@ -18,6 +18,11 @@
                         <?php include ("Poster_exhing.php"); ?>
                         <?php include ("Poster_lecture.php"); ?>
                     </div>
+                    <div class="poster_artlist">
+                        <h3>작품리스트</h3>
+                        <a href="exhibition4.php"><h4>나비! 꽃으로 피다</h4></a>
+                        <a href="exhibition3.php"><h4>소장작품전 (2024년 7월 01일 ~ 08월 30일)</h4></a>
+                    </div>
                 </div>
             </div>
         </div>
