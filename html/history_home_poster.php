@@ -1,6 +1,7 @@
 <h2>포스터</h2>
     <figure>
         <!-- <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2024_09_02.png?raw=true" alt="2024.09.02.전시"> 신규 추가 포스터 추가 기입요망.-->
+        <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2024_10_05.png?raw=true" alt="2024.10.05.전시">
         <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2024_09_02.png?raw=true" alt="2024.09.02.전시">
         <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2024_07_01.png?raw=true" alt="2024.07.01.전시">
         <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2024_05_03.png?raw=true" alt="2024.05.03.전시">
