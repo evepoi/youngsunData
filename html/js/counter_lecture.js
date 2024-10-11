@@ -1,7 +1,7 @@
 //타이머 미술특강일정 포스터 포함
 function counter(){
     //var dday = new Date("Apr 7,2018,09:00:00").getTime(); //디데이
-            var dday = new Date("2023-06-10 15:00:00").getTime(); //디데이
+            var dday = new Date("2024-11-16 15:00:00").getTime(); //디데이
             setInterval(function(){
                 var now = new Date(); //현재 날짜 가져오기
                 var distance = dday - now;
@@ -15,7 +15,7 @@ function counter(){
                 }
                 if (distance<0) {
                     $('#exhing2').hide();
-                    $('#count2').html('2023.06.10'); 
+                    $('#count2').html('2024.11.16'); 
                 } else {
                     if (d>0) {
                         view = view+d +'일 ';

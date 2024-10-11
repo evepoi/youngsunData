@@ -18,7 +18,6 @@
                             <strong>작품 협찬 : 민은갤러리</strong>
                             <em>
                                 구입문의 : <a href="https://open.kakao.com/o/sQY9Tjfe">클릭</a><br>
-                                사전판매가능
                             </em>
                         </h3>    
                         <div class="exhibition_img">

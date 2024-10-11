@@ -1,5 +1,6 @@
 <h2>포스터</h2>
     <figure>
+        <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/spc_2024_11_16.png?raw=true" alt="2024.11.16 특강">    
         <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/spc_2023_06_10.png?raw=true" alt="2023.06.10 특강">
         <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/spc_2022_12_10.png?raw=true" alt="2022.12.10 특강">
         <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/spc_2022_05_14.png?raw=true" alt="2022.05.14.특강">
