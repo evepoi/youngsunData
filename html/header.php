@@ -10,7 +10,7 @@
             <nav class="nav">
                 <ul class="clearfix">
                     <li><a href="special_lecture8.php">특강</a></li>
-                    <li><a href="exhibition4.php">전시</a></li>
+                    <li><a href="exhibition5.php">전시</a></li>
                     <li><a href="column.php">컬럼</a></li>
                     <li><a href="history.php">기록</a></li>
                     <li><a href="#">후원작가</a></li>
