@@ -10,9 +10,9 @@
                 <div class="column">
                     <?php include ("column_list.php"); ?>
                     <div class="column_chart clearfix">
-                        <?php include ("column1.php"); ?>
-                        <?php include ("column2.php"); ?>
-                        <?php include ("column3.php"); ?>
+                        <?php include ("Basicpage/column1.php"); ?>
+                        <?php include ("Basicpage/column2.php"); ?>
+                        <?php include ("Basicpage/column3.php"); ?>
                     </div>
                 </div>
             </div>

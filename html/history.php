@@ -13,6 +13,7 @@
                         <?php include ("history1.php"); ?>
                         <?php include ("history2.php"); ?>
                         <?php include ("history3.php"); ?>
+                        <?php include ("history4.php"); ?>
                     </div>
                 </div>
             </div>

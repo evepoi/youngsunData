@@ -12,32 +12,8 @@
                     <div class="exhibition_imglist">
                         <h2><span>소장작품전</span><strong>2024년 7월 01일 ~ 08월 30일</strong></h2>    
                         <div class="exhibition_img">
-                            <div>
-                                <img src="https://github.com/youngsungallery/youngsun_img/blob/master/img/artlist0701.0830/David%20Hockney%EF%BD%9C%EB%8F%84%EC%96%B4%EB%A1%9D%EF%BD%9C2018.png?raw=true" alt="">
-                                <div class="infor">
-                                    <h4>
-                                        <span>도어록</span><br>
-                                        <strong>
-                                            David Hockney<br>
-                                            2018<br>
-                                        </strong>
-                                    </h4>
-                                </div>
-                            </div>
-                            <div>
-                                <img src="https://github.com/youngsungallery/youngsun_img/blob/master/img/artlist0701.0830/Jin%20Meyerson%EF%BD%9CGlobetrotter%EF%BD%9COil%20on%20Canvas%EF%BD%9C150%20X%2090cm%EF%BD%9C2019.png?raw=true" alt="">
-                                <div class="infor">
-                                    <h4>
-                                        <span>Globetrotter</span><br>
-                                        <strong>
-                                            Jin Meyerson<br>
-                                            150 X 90cm<br>
-                                            Oil on Canvas<br>
-                                            2019<br>
-                                        </strong>
-                                    </h4>
-                                </div>
-                            </div>
+                            <?php include ("Artlist/YS_7.php"); ?> <!--David Hockney｜도어록｜2018｜영선갤러리 소장-->
+                            <?php include ("Artlist/YS_13.php"); ?> <!--Jin Meyerson｜Globetrotter｜Oil on Canvas｜150 X 90cm｜2019-->
                             <div>
                                 <img src="https://github.com/youngsungallery/youngsun_img/blob/master/img/artlist0701.0830/%EA%B6%8C%EC%98%81%EC%9A%B0%EF%BD%9C%EB%AC%B4%EC%A0%9C%EF%BD%9C%ED%95%9C%EC%A7%80%EC%97%90%20%EA%B3%BC%EC%8A%88%EF%BD%9C81x65cm%EF%BD%9C1983.png?raw=true" alt="">
                                 <div class="infor">

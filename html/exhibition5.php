@@ -10,9 +10,21 @@
                 <div class="exhibition clearfix">
                     <?php include ("exhibition_list.php"); ?>
                     <div class="exhibition_imglist">
-                        <h2><span>영선갤러리 특별 인연전</span><strong>2024년 10월 01일 ~ 12월 31일</strong></h2>    
+                        <h2><span>영선갤러리 특별 인연전</span><strong>2024년 10월 01일 ~ 12월 31일</strong></h2>
                         <div class="exhibition_img">
-                            <?php include ("Artlist/Art_0001.php"); ?><!--김기창/강호한경-->
+                            <div>
+                                <img src="https://github.com/youngsungallery/youngsun_img/blob/master/img/artlist1001.1231/%EA%B9%80%EA%B8%B0%EC%B0%BD%EF%BD%9C%EA%B0%95%ED%98%B8%ED%95%9C%EA%B2%BD%EF%BD%9CLithograph%EF%BD%9C56%20X%2090cm.jpg?raw=true" alt="">
+                                <div class="infor">
+                                    <h4>
+                                        <span>강호한경</span><br>
+                                        <strong>
+                                            김기창<br>
+                                            56 X 90cm<br>
+                                            Lithograph<br>
+                                        </strong>
+                                    </h4>
+                                </div>
+                            </div>
                             <div>
                                 <img src="https://github.com/youngsungallery/youngsun_img/blob/master/img/artlist1001.1231/%EA%B9%80%EA%B8%B0%EC%B0%BD%EF%BD%9C%ED%99%94%EC%A1%B0%EB%8F%84%EF%BD%9CInk%20and%20Light%20Color%20on%20Paper%EF%BD%9C38.5%20X%2025.5cm%EF%BD%9C1952.jpg?raw=true" alt="">
                                 <div class="infor">
