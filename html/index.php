@@ -22,7 +22,7 @@
                         <h3>작품리스트</h3>
                         <a href="exhibition5.php"><h4>영선갤러리 특별기획 인연전</h4></a>
                         <a href="exhibition4.php"><h4>나비! 꽃으로 피다</h4></a>
-                        <a href="exhibition3.php"><h4>소장작품전</h4></a>
+                        <a href="https://github.com/youngsungallery/youngsun_img/blob/master/Artlist_PDF/Artlist_20240701.pdf?raw=true" download><h4>소장작품전</h4></a>
                     </div>
                 </div>
             </div>
