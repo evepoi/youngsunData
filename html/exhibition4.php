@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="exhibition clearfix">
                     <?php include ("exhibition_list.php"); ?>
-                    <div class="exhibition_imglist">
+                    <div class="artlist_artlist">
                         <h2>
                             <span>나비! 꽃으로 피다</span><strong>2024년 9월 02일 ~ 09월 30일</strong>
                         </h2>
