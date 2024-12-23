@@ -1,7 +1,7 @@
 //타이머 전시 예정
 function counter(){
     //var dday = new Date("Apr 7,2018,09:00:00").getTime(); //디데이
-            var dday = new Date("2024-10-05 00:00:00").getTime(); //디데이
+            var dday = new Date("2025-01-02 00:00:00").getTime(); //디데이
             setInterval(function(){
                 var now = new Date(); //현재 날짜 가져오기
                 var distance = dday - now;
@@ -15,8 +15,8 @@ function counter(){
                 }
                 if (distance<0) {
                     $('#Start_Exh').html('전시중');
-                    $('#artlist1').html('영선갤러리 특별전');
-                    $('#count_history').html('2024.10.05. ~ 2024.12.31. ｜ 영선갤러리 특별기획 인연전'); //기록내용
+                    $('#artlist1').html('영선갤러리');
+                    $('#count_history').html('2025.01.02. ~ 2025.02.28. ｜ 영선갤러리 소장 작품전'); //기록내용
                 } else {
                     if (d>0) {
                         view = view+d +'일 ';
@@ -29,7 +29,7 @@ function counter(){
                     }
                     $('#artlist1').html(view+s+' 후 전시'); 
                     $('#Start_Exh').html('전시예정');
-                    $('#count_history').html(view+s+'후 전시 ｜ 영선갤러리 특별 기획 인연전'); //기록내용 
+                    $('#count_history').html(view+s+'후 전시 ｜ 영선갤러리 소장 작품전'); //기록내용 
                 }
             }, 1000);
         }

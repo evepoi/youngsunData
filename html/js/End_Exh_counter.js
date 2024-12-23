@@ -1,7 +1,7 @@
 //타이머 전시 예정 
 function counter(){
     //var dday = new Date("Apr 7,2018,09:00:00").getTime(); //디데이
-            var dday = new Date("2024-09-30 00:00:00").getTime(); //디데이
+            var dday = new Date("2024-12-31 00:00:00").getTime(); //디데이
             setInterval(function(){
                 var now = new Date(); //현재 날짜 가져오기
                 var distance = dday - now;
