@@ -2,7 +2,7 @@
     <div>
         <div class="poster">
             <figure>
-                <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2025_01_02.png?raw=true" alt="2025.01.02.전시">
+                <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2025_01_06.png?raw=true" alt="2025.01.06.전시">
             </figure>
         </div>
         <div class="infor">
