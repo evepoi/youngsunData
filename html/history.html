@@ -71,11 +71,169 @@
         <div class="container">
             <div class="row">
                 <div class="history">
-                    <?php include ("history_list.php"); ?>
+                    <div class="history_title clearfix">
+                        <ul>
+                            <li class="active"><a href="#">홈 전시 이력</a></li>
+                            <li class=""><a href="#">외부 전시 이력</a></li>
+                            <li class=""><a href="#">특강 이력</a></li>
+                        </ul>
+                    </div>
                     <div class="history_chart clearfix">
-                        <?php include ("history1.php"); ?>
-                        <?php include ("history2.php"); ?>
-                        <?php include ("history3.php"); ?>
+                        <div>
+                            <h2>홈 전시 이력</h2>
+                            <h3>
+                                <div id="count_history"></div>
+                                <!-- 2025.01.02. ~ 2025.02.28. ｜ 영선갤러리 소장전<br>-->
+                                2024.10.05. ~ 2024.12.31. ｜ 영선갤러리 특별기획 인연전<br>
+                                2024.09.02. ~ 2024.09.30. ｜ 나비! 꽃으로 피다<br>
+                                2024.05.03. ~ 2024.08.30. ｜ 영선갤러리 작품 소장전<br>
+                                2024.03.28. ~ 2024.04.27. ｜ 김민 개인전<br>
+                                2023.01.08. ~ 2024.02.29. ｜ 영선갤러리 소장전<br>
+                                2023.12.05. ~ 2024.01.04. ｜ 영선갤러리 한국화전<br>
+                                2023.11.04. ~ 2023.11.25. ｜ 다섯개의 창 <br>
+                                2023.10.12. ~ 2023.10.31. ｜ 떠오르는 세계 <br>
+                                2023.09.01. ~ 2023.09.30. ｜ 한지이야기 <br>
+                                2023.06.10. ~ 2023.07.30. ｜ 이승철 교수 한지작품 특별전 <br>
+                                2023.04.08. ~ 2023.05.28. ｜ 김상철 교수 한국화 특별전 <br>
+                                2023.03.04. ~ 2023.03.31. ｜ 유명 판화 특별전 <br>
+                                2022.12.01. ~ 2023.02.28. ｜ 7주년 특별전 <br>
+                                2022.09.19. ~ 2022.10.31. ｜ 서수영 특별기획전 (영감의 시작, Drawing) <br>
+                                2022.07.01. ~ 2022.09.18. ｜ 상설전 <br>
+                                2022.05.13. ~ 2022.06.30. ｜ 소장 작품전<br>
+                                2022.03.21. ~ 2022.04.30. ｜ 서수영 작가 달항아리 특별전<br>
+                                2021.12.02. ~ 2022.02.28. ｜ 소장 작품전<br>
+                                2021.11.04. ~ 2021.11.30. ｜ 박영학 작가 초대전<br>
+                                2021.09.25. ~ 2021.10.31. ｜ META DREAM<br>
+                                2021.08.05. ~ 2021.09.22. ｜ 소장 작품전<br>
+                                2021.06.01. ~ 2021.07.31. ｜ 홍일화 작품전<br>
+                                2021.02.01. ~ 2021.03.31. ｜ 박인숙, 서수영, 홍일화 3인전<br>
+                                2020.11.28. ~ 2020.12.31. ｜ 서수영 작가 특별전<br>
+                                2020.11.02. ~ 2020.11.23. ｜ 2020 수원문화재단 아트뱅크와 함께하는 영선갤러리 기획전<br>
+                                2020.02.03. ~ 2020.03.31. ｜ 영선갤러리 소장 서수영 작품전<br>
+                                2020.02.01. ~ 2020.02.29. ｜ 서수영 특별전 (달항아리, 매화를 품다!)<br>
+                                2019.07.01. ~ 2019.09.30. ｜ 소장 작품전<br>
+                                2018.12.01. ~ 2019.04.30. ｜ 동서양의 만남 특별전<br>
+                                2018.05.01. ~ 2018.09.30. ｜ 소장 작품전<br>
+                                2018.03.01. ~ 2018.04.30. ｜ 홍일화 작품전 Interlace<br>
+                                2017.11.01. ~ 2018.02.28. ｜ 소장 작품전<br>
+                                2017.05.01. ~ 2017.10.31. ｜ 홍일화 작품전 Schema<br>
+                                2016.11.01. ~ 2017.04.30. ｜ 소장 작품전<br>
+                                2016.10.05. ~ 2016.11.30. ｜ 우향 김두선 도예 작품전<br>
+                                2016.09.05. ~ 2016.09.30. ｜ 특별부녀전시회 (박수근, 박인숙)<br>
+                                2016.08.01. ~ 2016.08.31. ｜ 문홍규 작품전<br>
+                                2016.07.04. ~ 2016.07.27. ｜ 정규석 작품전<br>
+                                2016.06.04. ~ 2016.06.29. ｜ 최영란 작품전<br>
+                                2016.05.02. ~ 2016.05.31. ｜ 소품 전시회<br>
+                                2016.04.01. ~ 2016.04.30. ｜ 소장 작품전
+                            </h3>
+                            <h2>포스터</h2>
+                                <figure>
+                                    <!-- <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2024_09_02.png?raw=true" alt="2024.09.02.전시"> 신규 추가 포스터 추가 기입요망.-->
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2025_01_06.png?raw=true" alt="2025.01.06.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2024_10_05.png?raw=true" alt="2024.10.05.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2024_09_02.png?raw=true" alt="2024.09.02.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2024_07_01.png?raw=true" alt="2024.07.01.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2024_05_03.png?raw=true" alt="2024.05.03.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2024_03_28.png?raw=true" alt="2024.03.28.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2024_01_02.png?raw=true" alt="2024.01.02.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2023_12_05.png?raw=true" alt="2023.12.05.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2023_11_04.png?raw=true" alt="2023.11.04.전시">    
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2023_10_12.png?raw=true" alt="2023.10.12.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2023_09_01.png?raw=true" alt="2023.09.01.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2023_06_10.png?raw=true" alt="2023.06.10.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2023_04_08.png?raw=true" alt="2023.04.08.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2023_03_04.png?raw=true" alt="2023.03.04.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2022_11_01.png?raw=true" alt="2022.11.01.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2022_09_19.png?raw=true" alt="2022.09.19.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2022_05_13.png?raw=true" alt="2022.05.13.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2022_03_21.png?raw=true" alt="2022.03.21.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2021_12_02.png?raw=true" alt="2021.12.02.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2021_11_04.png?raw=true" alt="2021.11.04.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2021_09_25.png?raw=true" alt="2021.09.25.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2021_08_05.png?raw=true" alt="2021.08.05.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2021_02_01.png?raw=true" alt="2021.02.01.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2020_11_25.png?raw=true" alt="2020.11.25.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2020_11_02.png?raw=true" alt="2020.11.02.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2017_07_01.png?raw=true" alt="2017.07.01.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2017_06_01.png?raw=true" alt="2017.06.01.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2017_05_01.png?raw=true" alt="2017.05.01.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2016_10_05.png?raw=true" alt="2016.10.05.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2016_09_05.png?raw=true" alt="2016.09.05.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2016_08_01.png?raw=true" alt="2016.08.01.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2016_07_04.png?raw=true" alt="2016.07.04.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2016_06_04.png?raw=true" alt="2016.06.04.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2016_05_02.png?raw=true" alt="2016.05.02.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/exh_main_2016_04_01.png?raw=true" alt="2016.04.01.전시"><br>
+                                </figure>
+                        </div>
+                        <!--홈 전시 이력-->
+
+                        <div>
+                            <h2>외부 전시 이력</h2>
+                            <h3>
+                                2021.09.01. ~ 2021.09.30. ｜ 소장 판화전｜ 디지털엠파이어Ⅱ 로비갤러리<br>
+                                2021.08.04. ~ 2021.08.31. ｜ 소장 작품전｜ 디지털엠파이어Ⅱ 로비갤러리<br>
+                                2021.06.01. ~ 2021.06.30. ｜ 박인숙 작품전｜ 디지털엠파이어Ⅱ 로비갤러리<br>
+                                2020.11.17. ~ 2020.11.23. ｜ 2020 수원문화재단 아트뱅크와 함께하는 영선갤러리 기획전｜ 행궁동 갤러리<br>
+                                2020.11.09. ~ 2020.11.13. ｜ 2020 수원문화재단 아트뱅크와 함께하는 영선갤러리 기획전｜ 장안구민회관<br>
+                                2020.11.02. ~ 2020.11.07. ｜ 2020 수원문화재단 아트뱅크와 함께하는 영선갤러리 기획전｜ 디지털엠파이어Ⅱ 로비갤러리<br>
+                                2018.11.16. ~ 2019.01.30. ｜ 영통구청 갤러리 작품전｜ 영통구청 갤러리
+                            </h3>
+                            <h2>포스터</h2>
+                                <figure>
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/Dig_2021_09_01.png?raw=true" alt="2021.09.01.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/Dig_2021_08_04.png?raw=true" alt="2021.08.04.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/Dig_2021_06_01.png?raw=true" alt="2021.06.01.전시">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/Dig_2021_05_01.png?raw=true" alt="2021.05.01.전시">
+                                </figure>
+                        </div>
+                        <!--외부 전시 이력-->
+                        
+                        <div>
+                            <h2>특강 이력</h2>
+                            <h3>
+                                <div id="count_history5"></div><!--2024.11.16. ｜ 아트 컬렉팅과 미술품투자 전략｜김정환 작가<br>-->
+                                2024.06.15. ｜ 행복한 미술애호가 입문과 예술의 역할｜김윤섭 소장<br>
+                                2024.01.20. ｜ 미술전문기자가 본 현대미술｜뉴시스 박현주 기자<br>
+                                2023.09.09. ｜ 초보 콜렉터를 위한 그림이야기Ⅴ｜김형진 관장<br>
+                                2023.06.10. ｜ 이승철 교수의 한지 이야기, 유럽과 미주지역 순회전 이야기<br>
+                                2023.04.08. ｜ 새로운 문화환경 21C와 한국 미술의 가능성｜김상철 교수<br>
+                                2023.03.11. ｜ 초보 콜렉터를 위한 그림이야기Ⅳ｜김형진 관장<br>
+                                2022.12.10. ｜ 초보 콜렉터를 위한 그림이야기Ⅲ｜김형진 관장<br>
+                                2022.09.24. ｜ 초보 콜렉터를 위한 그림이야기Ⅱ｜김형진 관장<br>
+                                2022.06.25. ｜ 초보 콜렉터를 위한 그림이야기Ⅰ｜김형진 관장<br>
+                                2022.05.14. ｜ 2022 아트마켓 트랜드 & 향후전망｜ 미술평론가, 한국미술경영연구소 김윤섭 소장<br>
+                                2022.03.26. ｜ 1부 미술의 권력이동, 현대 미술의 현황과 향후 전망 ｜ 전준엽 작가<br>
+                                2022.03.26. ｜ 2부 작가와의 만남 ｜ 서수영 작가<br>
+                                2021.11.06. ｜ 1부 미술특강 ｜ 김형진 관장<br>
+                                2021.11.06. ｜ 2부 작가와의 만남 ｜ 박영학 작가<br>
+                                2020.11.28. ｜ 1부 국내 해외 미술시장의 흐름 ｜ 이지민 부장<br>
+                                2020.11.28. ｜ 2부 Timelessness 1994 ~ 2020 ｜ 서수영 작가<br>
+                                2020.11.07. ｜ 2020 수원문화재단 아트뱅크기획 ｜ 1부 미술 시장과 투자 2020 ｜ 구기수 미술평론가<br>
+                                2020.11.07. ｜ 2020 수원문화재단 아트뱅크기획 ｜ 2부 일상에서 미술을 활용 할 수 있는 노하우와 전시 작가 작품 소개 ｜ 김형진 관장<br>
+                                2020.09.19. ｜ 미술품 컬렉션의 의미와 가치 ｜ 서울 FM갤러리 배기성 대표<br>
+                                2020.06.27. ｜ 1부 2020 미술시장 트렌드와 미술품의 경제적 가치 ｜ 김형진 관장<br>
+                                2020.06.27. ｜ 2부 그림속에 나타난 금 이야기 ｜ 서수영 작가<br>
+                                2020.06.16. ｜ 2019년 미술시장트렌드와 김환기, 박수근, 홍일화의 미술세계 ｜ 김형진 관장<br>
+                                2018.10.20. ｜ 1부 서예와 현대미술의 매력적인 만남 ｜ 한국미술경영연구소 김윤섭 소장<br>
+                                2018.10.20. ｜ 2부 서화가 작가와의 만남 ｜ 손동준 작가<br>
+                                2018.09.05. ｜ 이제 자산관리는 투자인가 예술인가? ｜ 엄길청 교수, 김형진 관장<br>
+                                2018.06.02. ｜ 유망 중견작가 그림 설명회 ｜ 한국미술경영연구소 김윤섭 소장<br>
+                                2018.03.17. ｜ Interlace 동서양미술의 교차 ｜ 홍일화 작가<br>
+                                2018.02.04. ｜ 나를 매혹시킨 현대 미술의 매력과 미술품의 경제적 가치 ｜ 한국미술경영연구소 김윤섭 소장
+                            </h3>
+                            <h2>포스터</h2>
+                                <figure>
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/spc_2024_11_16.png?raw=true" alt="2024.11.16 특강">    
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/spc_2023_06_10.png?raw=true" alt="2023.06.10 특강">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/spc_2022_12_10.png?raw=true" alt="2022.12.10 특강">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/spc_2022_05_14.png?raw=true" alt="2022.05.14.특강">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/spc_2022_03_26.png?raw=true" alt="2022.03.26.특강">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/spc_2020_11_28.png?raw=true" alt="2020.11.28.특강">
+                                    <img src="https://github.com/evepoi/youngsun_img/blob/master/img/exh/spc_2018_02_04.png?raw=true" alt="2028.02.04.특강">
+                                </figure>
+                        </div>
+                        <!--특강 이력-->
                     </div>
                 </div>
             </div>
