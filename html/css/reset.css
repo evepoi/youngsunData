@@ -40,3 +40,19 @@ video,img {width: 100%;}
 
 /* 아이콘 이미지 최적화 작업 */
 .icon {background-image: url(../img/icon.png);}
+
+/* 스킵메뉴 */
+#skip a{
+ position: absolute;
+ left: 10px;
+ top: -92px;
+ z-index: 100000;
+ font-style: 1rem;
+ padding: 10px 30px;
+ color: white;
+ background: black;
+}
+#skip a:focus,
+#skip a:active {
+    top: 10px;
+}

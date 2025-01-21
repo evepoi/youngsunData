@@ -8,8 +8,8 @@
     width: 100%;
     z-index: 10000;
     }
-#poster {margin-top: 50px;}
-#history {margin-top: 100px;}
+#intro {margin-top: 50px;}
+#history {}
 #video {}
 #exhibition {}
 #column {}
@@ -97,13 +97,13 @@
 }
 
 /* 포스터 영역 */
-.exh {padding: 100px 0 60px 0; text-align: center;}
+.exh {padding: 100px 0 0 0; text-align: center;}
 .poster_title {margin-bottom: 60px;}
 .poster_title ul {overflow: hidden; width: 603px; margin: 0 auto;}
 .poster_title ul li {float: left; width: 270px; text-align: center; border: 1px solid #c4c4c4; margin-right: -1px;}
 .poster_title ul li a {display: block; padding: 15px 0; font-size: 18px; color: #666; font-weight: 700;}
 .poster_title ul li.active a {background: #666; color: #fff;}
-.poster_chart {margin-bottom: 60px;}
+.poster_chart {}
 .poster_chart .chart_cont1 {}
 .poster_chart .chart_cont1 > div {display:inline-block; width: 270px; border: 1px solid #d9d9d9; margin-right: 20px;}
 .poster_chart .chart_cont1 > div:last-child {margin-right: 0;}
@@ -126,16 +126,28 @@
 .poster_chart .chart_cont2 > div > .infor strong {}
 .poster_chart .chart_cont2 > div > .infor em {position: absolute; top: 4px; right: 30px; font-size: 15px;}
 
-.poster_artlist {padding: 0 0 0 30px;}
-.poster_artlist h3 {color: #333; font-size: 30px; font-weight: 700; text-align: left;}
-.poster_artlist a {color: #333;text-align: left;}
-.poster_artlist a h4 {color: #333; font-size: 20px; font-weight: 400; text-align: left;}
-
 /* 특강 */
-.video {padding: 100px 0 60px 0;}
-.video h3 {
-    padding: 0 0 20px 0;
-    color: #333; font-size: 30px; font-weight: 700; text-align: left;}
+.video {padding: 60px 0 0 0;}
+.video h2 {
+    position: sticky;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    color: #333;
+    font-size: 30px;
+    line-height: 1.6;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: 4px solid #333;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.video em {
+    font-size: 1.25rem;
+    line-height: 2;
+    padding: 0 0 0 20px;
+}
 .video_list {float: left; width: 30%;}
 .video_list li a {margin-right: 20px; font-size: 20px; color: #666; font-weight: 700;}
 .video_youtube {float: left; width: 70%;}
@@ -147,10 +159,27 @@
 .video_youtube .infor h3 strong {font-size: 20px;font-weight: 400;}
 
 /* 전시 */
-.exhibition {padding: 100px 0 60px 0;}
-.exhibition h3 {
-    padding: 0 0 20px 0;
-    color: #333; font-size: 30px; font-weight: 700; text-align: left;}
+.exhibition {padding: 60px 0 0 0;}
+.exhibition h2 {
+    position: sticky;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    color: #333;
+    font-size: 30px;
+    line-height: 1.6;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: 4px solid #333;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.exhibition em {
+    font-size: 1.25rem;
+    line-height: 2;
+    padding: 0 0 0 20px;
+}
 .exhibition_list {float: left; width: 30%;}
 .exhibition_list li a {margin-right: 20px; font-size: 20px; color: #666; font-weight: 700;}
 .exhibition_youtube {float: left; width: 70%;}
@@ -183,7 +212,27 @@
 .exhibition_img > div .infor h4 strong {font-size: 20px;font-weight: 400;}
 
 /* 컬럼 */
-.column {padding: 100px 0 60px 0}
+.column {padding: 60px 0 0 0}
+.column h2 {
+    position: sticky;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    color: #333;
+    font-size: 30px;
+    line-height: 1.6;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: 4px solid #333;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.column em {
+    font-size: 1.25rem;
+    line-height: 2;
+    padding: 0 0 0 20px;
+}
 .column_title {margin-bottom: 30px; width: 100%; padding: 34px; box-sizing: border-box; background: #f0f0f0;}
 .column_title ul {display:block; width: 100%; text-align: center;}
 .column_title ul li {float: left; width: 33%; text-align: center; border: 1px solid #c4c4c4;margin-right: -1px; margin-top: -1px;}
@@ -207,14 +256,14 @@
 .column_chart .bar_title .bar_em13 {margin: 10px 10px 10px 48px; display: inline-block; box-sizing: border-box;padding: 5px 50px 5px 10px; width: 10.8%; background: #6095c0;}
 .column_chart .bar_title .bar_em14 {margin: 10px 10px 10px 94px; display: inline-block; box-sizing: border-box;padding: 5px 50px 5px 10px; width: 11.9%; background: #6095c0;}
 .column_chart .bar_title .bar_em15 {margin: 10px 10px 10px 94px; display: inline-block; box-sizing: border-box;padding: 5px 50px 5px 10px; width: 5.9%; background: #6095c0;}
-.column_chart > div > h2 {text-align: center; font-weight: 700; font-size: 20px; padding: 10px 0 10px 0;}
-.column_chart > div > h3 {text-align: left; font-weight: 400; font-size: 15px; padding: 10px 0 10px 0;}
-.column_chart > div > h4 {text-align: left; font-weight: 300; font-size: 15px; padding: 10px 0 10px 0;}
+.column_chart > div > h3 {text-align: center; font-weight: 700; font-size: 20px; padding: 10px 0 10px 0;}
+.column_chart > div > h4 {text-align: left; font-weight: 400; font-size: 15px; padding: 10px 0 10px 0;}
+.column_chart > div > h5 {text-align: left; font-weight: 300; font-size: 15px; padding: 10px 0 10px 0;}
 .column_chart > div > a {padding: 0 20px 50px 20px;}
-.column_chart > div > a h3 {font-weight: 400; font-size: 20px; padding: 10px 0 10px 0;}
+.column_chart > div > a h4 {font-weight: 400; font-size: 20px; padding: 10px 0 10px 0;}
 
 /* 작품리스트 */
-.artlist {padding: 100px 0 60px 0;}
+.artlist {padding: 60px 0 0 0;}
 .artlist_list {float: left; width: 30%;}
 .artlist_list li a {margin-right: 20px; font-size: 20px; color: #666; font-weight: 700;}
 .artlist_youtube {float: left; width: 70%;}
@@ -249,16 +298,36 @@
 .artlist_img > div .infor h4 strong {font-size: 20px;font-weight: 400;}
 
 /* History */
-.history {padding: 100px 0 60px 0}
+.history {padding: 60px 0 0 0}
+.history h2 {
+    position: sticky;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    color: #333;
+    font-size: 30px;
+    line-height: 1.6;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: 4px solid #333;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.history em {
+    font-size: 1.25rem;
+    line-height: 2;
+    padding: 0 0 0 20px;
+}
 .history_title {margin-bottom: 30px; width: 100%; padding: 34px; box-sizing: border-box; background: #f0f0f0;}
 .history_title ul {display:block; width: 100%; text-align: center;}
 .history_title ul li {float: left; width: 33%; text-align: center; border: 1px solid #c4c4c4;margin-right: -1px; margin-top: -1px;}
 .history_title ul li a {display: block; padding: 10px 0 10px 0; font-size: 18px; color: #666; font-weight: 700;}
 .history_title ul li.active a {background: #666; color: #fff;}
 .history_chart {}
-.history_chart > div > h2 {text-align: center; font-weight: 700; font-size: 20px; padding: 10px 0 10px 0;}
-.history_chart > div > h3 {text-align: left; font-weight: 400; font-size: 15px; padding: 10px 0 10px 0;}
-.history_chart > div > h4 {text-align: left; font-weight: 300; font-size: 15px; padding: 10px 0 10px 0;}
+.history_chart > div > h3 {text-align: center; font-weight: 700; font-size: 20px; padding: 10px 0 10px 0;}
+.history_chart > div > h4 {text-align: left; font-weight: 400; font-size: 15px; padding: 10px 0 10px 0;}
+.history_chart > div > h5 {text-align: left; font-weight: 300; font-size: 15px; padding: 10px 0 10px 0;}
 .history_chart > div > figure {}
 .history_chart > div > figure img {float: left; width: 200px; height: 330px; padding: 0 10px 10px 0;}
 
