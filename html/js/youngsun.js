@@ -1,3 +1,11 @@
+// 메뉴
+    const headerToggle = document.getElementById("headerToggle");
+    const headerNav = document.querySelector(".header__nav");
+
+    headerToggle.addEventListener("click", () => {
+        headerNav.classList.toggle("show");
+    });
+
 //포스터 텝메뉴
 var movBtnp = $(".poster_title > ul > li");    
 var movContp = $(".poster_chart > div");
